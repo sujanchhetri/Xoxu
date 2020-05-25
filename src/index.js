@@ -46,7 +46,7 @@ app.post('/send', (req, res) => {
     secure: false,
     auth: {
         user: 'nodeguydeno@gmail.com', // generated ethereal user
-        pass: 'Muskan@123'  // generated ethereal password
+        pass: 'qwertyuiop123456789zxcvbnm##'  // generated ethereal password
     },
     tls:{
       rejectUnauthorized:false
