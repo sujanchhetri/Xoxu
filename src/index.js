@@ -59,7 +59,7 @@ app.post('/send', (req, res) => {
       to: `${req.body.email}`,
       subject: 'Chat Request', // Subject line
       text: 'Hello there,Join me for a chat at ', // plain text body
-      html: `<p>Here is the room id:${req.body.room}.Click here to join  for a <a href="https://localhost:3000">chat</a>`
+      html: `<p>Here is the room id:${req.body.room}.Click here to join  for a <a href="https://xoxu.herokuapp.com">chat</a>`
 
     };
 
